@@ -20,12 +20,12 @@ It is possible for the number of new teams to be between 1 and 4, and each state
 This program models the process of teams appearing on the show by considering a random winner of each show. 
 This gives a numerical result for the percentage chance of each possible number of teams. 
 
-Running the simulation over 10,000,000 shows gives numerical percentages of: 
+Running the simulation over 10,000,000 shows gives numerical ratios of: 
 
-1 new team   -  0.11%
-2 new teams  -  0.51%
-3 new teams  -  0.34%
-4 new teams  -  0.29%
+1 new team   -  0.11
+2 new teams  -  0.51
+3 new teams  -  0.34
+4 new teams  -  0.29
 
 **Further work**
 It would be interesting to build the same model and predict the percentages mathematically. 
