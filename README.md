@@ -1,8 +1,8 @@
 # Pointless
-Game theory applications to BBC's Pointless
+Game theory applications to BBC's Pointless, in particular modelling the number of new teams each epsiode as a Markov process. 
 
 **die.py**
-Models a 6 sided die and records the numebr of occurences of each result when rolled a changeable number of times.
+Models a 6 sided die and records the number of occurences of each result when rolled a changeable number of times. 
 
 **pointless.py**
 Models the number of new teams on each episode of the show Pointless. 
@@ -12,8 +12,6 @@ Models the number of new teams on each episode of the show Pointless.
 - Teams have 2 chances to win, so can appear in 2 concurrent shows. 
 - Teams that win are replaced by a new team.
 - Teams that fail to win after 2 appearances are replaced by a new team. 
-
-The number of new teams each episode can be represented as a Markov process.  
 
 It is possible for the number of new teams to be between 1 and 4, and each state is reachable from every other state.  
 
